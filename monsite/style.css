@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background: #fdf8f3;
+    text-align: center;
+}
+
+header {
+    background: #6b4226;
+    color: white;
+    padding: 20px;
+}
+
+.produits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produit {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.produit img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    background:green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:nth-child(4) {
+    background: none;
+    color: white;
+}
+
+button:nth-child(5) {
+    background: none;
+    color: white;
+}
